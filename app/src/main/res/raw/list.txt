@@ -1,0 +1,431 @@
+Apple
+Apples
+Apricots
+Apricot
+Avocado
+Avocados
+Banana
+Bananas
+Berry
+Berries
+Breadfruit
+Breadfruits
+Carob
+Carobs
+Cherries
+Cherry
+Citron
+Coconut
+Coconuts
+Date
+Dates
+DragonFruit
+DragonFruits
+Durian
+Fig
+Figs
+Ginger
+Grape
+Grapes
+Currant
+Raisin
+Raisins
+Grapefruit
+Grapefruits
+Guava
+Guavas
+Jackfruit
+Jackfruits
+Jujube
+Jujubes
+Kiwifruit
+Kiwifruits
+Kumquat
+Lemon
+Lemons
+Lime
+Limes
+Longan
+Loquat
+Lucuma
+Lychee
+Lychees
+Mamey Sapote
+Mango
+Mangoes
+Mangosteen
+Melons
+Melon
+Nance
+Nectarine
+Noni
+Oranges
+Orange
+Blood Orange
+Blood Oranges
+Navel
+Seville
+Valencia
+Papaya
+Papayas
+Passion Fruit
+Passion Fruits
+Peach
+Peaches
+Pear
+Pears
+Asian Pear
+Asian Pears
+Persimmon
+Pineapple
+Pineapples
+Plantain
+Plum
+Plums
+Damson
+Prunes
+Pomegranates
+Pomegranate
+Pomelo
+Prickly Pear
+Cactus Pear
+Prickly Pears
+Cactus Pears
+Quince
+Rambutan
+Rhubarb
+Starfruit
+Starfruits
+Tamarillo
+Tamarind
+Tamarinds
+Tangerine
+Tangelo
+Tomato
+Tomatoes
+Artichoke
+Arugula
+Asparagus
+Bamboo Shoots
+Bamboo Shoot
+Bean Sprouts
+Bean Sprout
+bean
+beans
+Beet
+Beetroot
+Beetroots
+Belgian Endive
+Bell Pepper
+Bell Peppers
+Bitter Melon
+Bitter Melons
+Bitter Gourd
+Bitter Gourds
+Bok Choy
+Bok Choi
+Pak Choy
+Broccoli
+Broccolis
+Brussels Sprouts
+Brussels Sprout
+Burdock Root
+Burdock Roots
+Gobo
+Cabbage
+Cabbages
+Calabash
+Capers
+Carrot
+carrots
+Cassava
+Yuca
+Cauliflower
+cauliflowers
+Celery
+Celery Root
+Celery Roots
+Celeriac
+Celtuce
+Chayote
+Chinese Broccoli
+Kai-lan
+Corn
+corns
+Maize
+babycorn
+babycorns
+Baby Corn
+Baby Corns
+Candle Corn
+Cucumber
+Cucumbers
+English Cucumber
+Gherkin
+Pickling Cucumbers
+Daikon Radish
+radish
+radishes
+Edamame
+Eggplant
+Eggplants
+Aubergine
+Elephant Garlic
+Endive
+Curly
+Frisee
+Escarole
+Fennel
+Fiddlehead
+Galangal
+Garlic
+Grape Leaves
+Grape Leave
+Green Beans
+Green Bean
+String Beans
+String Bean
+Snap Beans
+Snap Bean
+Wax Beans
+Wax Bean
+Greens
+Green
+Amaranth Leaves
+Amaranth Leave
+Chinese Spinach
+Beet Greens
+Beet Green
+Collard Greens
+Collard Green
+Dandelion Greens
+Dandelion Green
+Kale
+Kohlrabi Greens
+Kohlrabi Green
+Mustard Greens
+Mustard Green
+Rapini
+Spinach
+Swiss Chard
+Turnip Greens
+Turnip Green
+Hearts of Palm
+Horseradish
+Jerusalem Artichoke
+Sunchokes
+Jícama
+Curly
+Lacinato
+Ornamental
+Kohlrabi
+Leeks
+Lemongrass
+Lettuce
+Butterhead- Bibb, Boston
+Iceberg
+Leaf
+Leaves
+Green Leaf
+Green Leaves
+Red Leaf
+Red Leaves
+Romaine
+Lotus Root
+Lotus Roots
+Lotus Seed
+Lotus Seeds
+Mushrooms
+Mushroom
+Napa Cabbage
+Napa Cabbages
+Nopales
+Okra
+Olive
+Olives
+Onion
+Onions
+Green Onions
+Green Onion
+Scallions
+Parsley
+Parsleys
+Parsley Root
+Parsley Roots
+Parsnip
+pea
+Peas
+green peas
+green pea
+snow peas
+snow pea
+sugar snap peas
+sugar snap pea
+Peppers
+pepper
+Plantain
+Plantains
+Potato
+Potatoes
+Pumpkin
+Pumpkins
+Purslane
+Radicchio
+Rutabaga
+Shallots
+Spinach
+Squash
+Sweet Potato
+Sweet Potatoes
+Swiss Chard
+Taro
+Tomatillo
+Tomato
+Tomatoes
+Turnip
+Turnips
+Water Chestnut
+Water Chestnuts
+Water Spinach
+Watercress
+Winter Melon
+Winter Melons
+Yams
+Zucchini
+milk
+meat
+ham
+bread
+chicken
+chickens
+pork
+beef
+veal
+lamb
+lambs
+mutton
+beef steak
+roast beef
+ground beef
+hamburgers
+cutlets
+cutlet
+spare ribs
+spare rib
+pork chops
+pork chop
+lamb chops
+lamb chop
+veal cutlets
+veal cutlet
+poultry
+turkey
+turkeys
+goose
+duck
+ducks
+whole chicken
+chicken quarters
+chicken leg
+chicken legs
+drumstick
+drumsticks
+chicken breast
+turkey breast
+egg
+eggs
+ham
+bacon
+pastrami
+corned beef
+sausage
+salami
+smoked sausage
+Bologna
+hot dogs
+hot dog
+link sausages
+link sausage
+frankfurters
+wieners
+seafood
+shrimp
+shrimps
+prawn
+prawns
+crab
+crabs
+lobster
+lobsters
+oysters
+oyster
+clams
+clam
+shellfish
+squid
+squids
+fish
+fishes
+salmon
+salmons
+trouts
+trout
+sturgeon
+cod
+cods
+sole
+flatfish
+pike
+halibut
+tuna
+tunas
+perch
+sea bass
+herring
+eel
+eels
+mackerel
+mackerels
+fish steak
+salmon steak
+fish fillet
+fillet of sole
+smoked fish
+salted fish
+marinated herring
+caviar
+whole milk
+skim milk
+low-fat milk
+nonfat milk
+pasteurized milk
+dry milk
+condensed milk
+yogurt
+kefir
+sour milk
+buttermilk
+cream
+sour cream
+butter
+cottage cheese
+farmers' cheese
+home-made cheese
+cream cheese
+cheese
+Swiss cheese
+Parmesan
+Parmesan cheese
+Cheddar
+Cheddar cheese
+Mozzarella
+Mozzarella cheese
+Roquefort
+blue cheese
+hard cheese
+soft cheese
+sharp cheese
+mild cheese
+smoked cheese
+grated cheese
+cheese spread

@@ -1,0 +1,97 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_high"
+    android:orientation="vertical"
+    android:padding="@dimen/menu_padding">
+
+    <TableLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="10"
+        android:shrinkColumns="*"  android:stretchColumns="*" android:background="#ffffff">
+
+
+        <!-- Row with 3 columns -->
+
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <TextView
+                android:id="@+id/table_food_item_name" android:text="Food Name"
+                android:layout_weight="7" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"
+                android:layout_width="220dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/table_number_days" android:text="Expires in"
+                android:layout_weight="1.5" android:background="#dcdcdc"
+                android:textColor="#000000"
+                android:gravity="center"
+                android:layout_width="80dp"
+                android:layout_height="60dp"/>
+
+            <TextView
+                android:id="@+id/table_delete"
+                android:layout_weight="1.5"
+                android:textColor="#000000"
+                android:padding="20dip" android:gravity="center"
+                android:layout_width="80dp"/>
+
+        </TableRow>
+    </TableLayout>
+
+
+    <ListView
+        android:id="@+id/finalProjEditListView"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="450dp" >
+    </ListView>
+
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_high"
+    android:orientation="horizontal"
+    android:padding="@dimen/menu_padding">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/final_project_discard"
+        android:id="@+id/finalProjEditDiscardButton"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.4"
+        android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/final_project_accept"
+            android:id="@+id/finalProjEditAcceptButton"
+            android:layout_weight="0.4"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="bottom" />
+
+
+</LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

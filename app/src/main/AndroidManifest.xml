@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.neu.madcourse.dhvanisheth" >
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <permission
+        android:name="edu.neu.madcourse.dhvanisheth.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="edu.neu.madcourse.dhvanisheth.permission.C2D_MESSAGE" />
+
+    <uses-feature android:name="android.hardware.sensor.accelerometer" android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ds_appicon"
+        android:label="@string/mainapp_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/mainapp_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/TitleTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity2" >
+        </activity>
+        <activity android:name=".GameActivity" >
+        </activity>
+        <activity android:name=".AboutMeActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity android:name=".DictionaryActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name=".scraggle.MainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scraggle.WordGamePhases"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".scraggle.GameOverActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".communication.CommunicationStartGame"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGameMainActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGameActivityGameOver"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGamePhases"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGameSelectPlayer"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGameAcceptReject"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".twoplayerwordgame.TwoPlayerWordGameLeaderboardScreen"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <receiver
+            android:name=".communication.GcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <intent-filter android:priority="0">
+
+            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="edu.neu.madcourse.dhvanisheth" />
+
+            </intent-filter>
+
+        </receiver>
+
+        <service android:name=".communication.GcmIntentService" />
+
+        <receiver
+            android:name=".twoplayerwordgame.TwoPlayerWordGameGcmBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+
+            <intent-filter android:priority="0">
+            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="edu.neu.madcourse.dhvanisheth" />
+
+            </intent-filter>
+        </receiver>
+
+        <service android:name=".twoplayerwordgame.TwoPlayerWordGameGcmIntentService" />
+
+
+        <activity
+            android:name="edu.neu.madcourse.dhvanisheth.trickiestpart.TrickiestPartMainActivity">
+        <intent-filter>
+            <action android:name="com.edu.neu.madcourse.dhvanisheth.trickiestpart.TRICKIEST_PART_MAIN_ACTIVITY" />
+            <category android:name="android.intent.category.DEFAULT" />
+
+        </intent-filter>
+            android:screenOrientation="portrait" >
+            android:windowSoftInputMode="adjustPan";
+        </activity>
+
+        <activity
+            android:icon="@mipmap/waste_not_app_icon"
+            android:label="@string/final_project_app_name_on_screen"
+            android:name="edu.neu.madcourse.dhvanisheth.finalproject.FinalProjectMainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                    <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            android:screenOrientation="portrait" >
+            android:windowSoftInputMode="adjustPan";
+        </activity>
+
+        <activity
+            android:name=".finalproject.FinalProjectAppNameAndDescription"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.edu.neu.madcourse.dhvanisheth.finalproject.FINAL_PROJECT_APP_NAME_AND_DESC" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".finalproject.FinalProjectEditScreen"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".finalproject.FinalProjectSettings"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity
+            android:name=".finalproject.FinalProjectLastScreen"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <service android:name=".finalproject.NotificationService" />
+
+        <receiver android:name=".finalproject.AlarmReceiver">
+        </receiver>
+
+
+        <!--
+             ATTENTION: This was auto-generated to add Google Play services to your project for
+             App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+
+    </application>
+
+
+
+
+</manifest>

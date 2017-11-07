@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    tools:context=".communication.CommunicationMain"
+    android:weightSum="1"
+    android:background="@color/GhostWhite">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/menu_space"
+        android:layout_gravity="center"
+        android:text="@string/communication_label"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textSize="34sp"/>
+
+    <TextView
+        android:id="@+id/communication_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        tools:context=".communication.CommunicationMain"
+        android:weightSum="1"
+        android:id="@+id/communication_register">
+
+
+        <EditText
+            android:id="@+id/communication_user_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter your username..."
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="#238745"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/communication_register_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Register"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        tools:context=".communication.CommunicationMain"
+        android:weightSum="1"
+        android:id="@+id/communication_send_message">
+
+
+        <EditText
+            android:id="@+id/communication_other_player_name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter the player name to send message to..."
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="#238745"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/communication_message_text"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:hint="Enter the message..."
+            android:imeOptions="actionDone"
+            android:inputType="text"
+            android:textColorHint="#238745"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/communication_send_message_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Send Message"/>
+
+        <Button
+            android:id="@+id/communication_unregister_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Unregister"/>
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/communication_acknowledgements_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/acknowledgements_button"/>
+
+</LinearLayout>

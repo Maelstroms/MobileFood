@@ -1,0 +1,93 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_high"
+    android:orientation="vertical"
+    android:padding="@dimen/menu_padding">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Record Food Items"
+        android:id="@+id/finalProjSpeakButton"
+        android:height="90dp"
+        android:width="80dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"/>
+
+
+    <TextView
+        android:id="@+id/finalProjTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <ListView
+        android:id="@+id/finalProjListViewMain"
+        android:descendantFocusability="beforeDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="350dp" >
+    </ListView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:orientation="horizontal"
+        android:clipChildren="false"
+        tools:context=".ScraggleActivity"
+        android:baselineAligned="true"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="1dp"
+        android:layout_weight="1"
+        android:weightSum="1">
+
+        <ImageButton
+            android:id="@+id/finalProjSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="10dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/final_project_discard"
+        android:id="@+id/finalProjDiscardButton"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="0.4"
+        android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/final_project_accept"
+            android:id="@+id/finalProjAcceptButton"
+            android:layout_weight="0.4"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="bottom" />
+
+        <ImageButton
+            android:id="@+id/finalProjAddMoreButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.1"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="bottom" />
+
+        </LinearLayout>
+
+
+</LinearLayout>
+</ScrollView>

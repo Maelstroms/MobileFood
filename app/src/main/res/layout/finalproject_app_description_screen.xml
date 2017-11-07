@@ -1,0 +1,51 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:elevation="@dimen/elevation_high"
+    android:orientation="vertical"
+    android:padding="@dimen/menu_padding">
+
+    <TextView
+    android:id="@+id/finalProjAppName"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+    android:layout_centerHorizontal="true"
+        android:text="@string/final_project_app_name"
+        android:textColor="#ff7f7f"
+    android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/finalProjAppDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:textColor="#7f007f"
+        android:textSize="20dp"
+        android:text="@string/final_project_app_desc"/>
+
+   <Button
+       android:id="@+id/finalProjStartButton"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/final_project_start"
+       android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/finalProjAcknowledgementsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/acknowledgements_button"
+        android:layout_marginTop="25dp"/>
+
+</LinearLayout>
+</ScrollView>

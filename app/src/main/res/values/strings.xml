@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ ! Excerpted from "Hello, Android",
+ ! published by The Pragmatic Bookshelf.
+ ! Copyrights apply to this code. It may not be used to create training material, 
+ ! courses, books, articles, and the like. Contact us if you are in doubt.
+ ! We make no guarantees that this code is fit for any purpose. 
+ ! Visit http://www.pragmaticprogrammer.com/titles/eband4 for more book information.
+-->
+<resources>
+    <string name="app_name">UT3</string>
+    <string name="long_app_name">Ultimate Tic Tac Toe</string>
+    <string name="action_settings">Settings</string>
+    <string name="restart_label">Restart</string>
+    <string name="main_menu_label">Main Menu</string>
+    <string name="declare_winner">%1$s is the winner</string>
+    <string name="continue_label">Continue</string>
+    <string name="new_game_label">New Game</string>
+    <string name="about_title">About Ultimate Tic Tac Toe</string>
+    <string name="about_label">About</string>
+    <string name="ok_label">OK</string>
+    <string name="about_text">\
+This game is played just like
+regular Tic Tac Toe with one difference: to win a tile
+you have to win a smaller game of Tic Tac Toe inside that tile.\n\
+\n\
+A tie happens when there are no further moves.
+In the case of a tie in a small board, that will count as a win for
+both sides in the larger game.\n\
+\n\
+@Copyright/Credit Information for Music used:\n\n\
+Song: Amplifier\n\
+Artist: Imran Khan\n\
+Album: Unforgettable\n\n\
+Song: Paradise\n\
+Artist: Coldplay\n\
+Album: Mylo Xyloto
+    </string>
+    <string name="aboutme_label">About</string>
+    <string name="aboutme_name">Name: Dhvani Sheth\n</string>
+    <string name="aboutme_email">Email: dhsheth9@gmail.com\n</string>
+    <string name="aboutme_year">Year in School: 1st Year MS\n</string>
+    <string name="aboutme_degree_program">Degree Program: Computer Science\n</string>
+    <string name="aboutme_imei">IMEI Number:</string>
+    <string name="mainapp_name">NUMAD16S-DhvaniSheth</string>
+    <string name="mainapp_long_name">Dhvani Sheth</string>
+    <string name="generate_error_label">Generate Error</string>
+    <string name="tictactoe_label">Tic Tac Toe</string>
+    <string name="quit_label">Quit</string>
+    <string name="dictionary_label">Dictionary</string>
+    <string name="acknowledgements_button">Acknowledgements</string>
+    <string name="dictionary_clear">Clear</string>
+    <string name="dictionary_return">Return</string>
+    <string name="dictionary_hint">Enter a word to search</string>
+    <string name="acknowledgements_dictionary">\
+        Websites referenced:\n
+http://developer.android.com/\n
+        http://stackoverflow.com/\n
+        For color codes - http://www.codexpedia.com/android/list-of-color-names-and-color-code-for-android/\n\n
+
+        @Copyright/Credit Information for music used:\n
+Title: Beep 7\n
+Website: http://www.soundjay.com/beep-sounds-1.html\n\n
+    </string>
+    <string name="dictionary_title">Test Dictionary</string>
+    <string name="word_game">Word Game</string>
+    <string name="pause_game_button">Pause</string>
+    <string name="resume_button">Resume</string>
+    <string name="resume_game_button">Resume Game</string>
+    <string name="instructions_button">Instructions</string>
+    <string name="turn_off_sound_button">Turn Off Sound</string>
+    <string name="scraggle_label">Scraggle</string>
+    <string name="scraggle_phase1_label">Scraggle Phase 1</string>
+    <string name="scraggle_score">Score:</string>
+    <string name="scraggle_reset_grid">Reset One Tile</string>
+    <string name="scraggle_submit_word">Submit</string>
+    <string name="scraggle_phase2_label">Scraggle Phase 2</string>
+    <string name="scraggle_acknowledgements">
+        Websites referenced:\n
+http://developer.android.com/\n
+        http://stackoverflow.com/\n
+        http://www.december.com/html/spec/color2.html\n
+        http://www.december.com/html/spec/color3.html\n\n\n
+
+        @Copyright/Credit Information for music used:\n
+        Main menu screen of Word Game and the Word Game Screen:\n
+Movie: Kung Fu Panda\n
+Artist: Hans Zimmer\n\n
+
+        For the correct and wrong word beep sounds:\n
+        http://www.soundjay.com/button-sounds-1.html
+    </string>
+    <string name="scraggle_instructions">\
+                              Welcome to Scraggle!!!\n\n
+The GamePlay:\n\n
+        Scraggle is a word game with an unusual twist on the famous games of word scrambles; Boggle and Scrabble.\n\n
+
+        The game is played on a square board of letter tiles (9 grids of 3*3 grid).\n\n
+
+        The game is played in two phases and against a timer of 90 seconds each.\n\n
+
+        In Phase 1, you can form words from any adjoining letters,
+        including diagonals belonging to the same grid only. If there is no correct word from at least two grids,
+        the game will be over and you shall not proceed to Phase 2.\n\n
+
+        In Phase 2, you can form words by selecting one letter from each available grid. You can repeat different
+        letters from the same grid but not consecutively.\n\n
+
+        When forming a word, choose letters by tapping individual adjoining letters in sequence.
+        Submit the finished word by touching the "Submit" button.\n\n
+
+        If you want to start over for a particular grid/word or select a new word altogether,
+        touch the "Submit" button.\n\n
+
+        You cannot submit the same word more than once during the entire duration of the game.\n\n\n
+
+        Scoring and Time:\n\n
+
+        Your current score is shown at the top right corner of the screen and your remaining time appears at the
+        top left corner.\n\n
+
+        Submitting a valid word increases the score.\n\n
+
+        Words may be between 3 to 9 letters long during Phase 1. During Phase 2, a word should be minimum of 3
+        letters long.
+
+
+    </string>
+
+    <string name="tpwg_instructions">\
+                              Welcome to Two Player Word Game!!!\n\n
+The GamePlay:\n\n
+        First you need to register so that you can find an available opponent and start playing.
+        Next step is to send a play request to an available player from the list displayed.
+        Once the opponent accepts the play request, the game starts.\n\n
+
+        The player who sends the request gets the first chance. Once the first word is submitted by
+        the player, the turn goes to the opponent. You will not be able to submit another word unless
+        it is your turn again.\n\n
+
+        Your turn will again come when the opponent submits a word or when he passes it to you. A pass
+        can be done by shaking the phone.
+
+        If either of the player quits the game, then the game is over.
+
+        The game is played on a square board of letter tiles (9 grids of 3*3 grid).\n\n
+
+        The game is played in two phases and against a timer of 90 seconds each.\n\n
+
+        In Phase 1, you can form words from any adjoining letters,
+        including diagonals belonging to the same grid only. If there is no correct word from at least two grids,
+        the game will be over and you shall not proceed to Phase 2.\n\n
+
+        In Phase 2, you can form words by selecting one letter from each available grid. You can repeat different
+        letters from the same grid but not consecutively.\n\n
+
+        When forming a word, choose letters by tapping individual adjoining letters in sequence.
+        Submit the finished word by touching the "Submit" button.\n\n
+
+        If you want to start over for a particular grid/word or select a new word altogether,
+        touch the "Submit" button.\n\n
+
+        You cannot submit the same word more than once during the entire duration of the game.\n\n\n
+
+        Scoring and Time:\n\n
+
+        Current score and time remaining of you and your opponent is shown at the top of the screen.\n\n
+
+        Submitting a valid word increases the score.
+        Words may be between 3 to 9 letters long during Phase 1. During Phase 2, a word should be minimum of 3
+        letters long.\n\n
+
+
+    </string>
+
+    <string name="tpwg_acknowledgements">
+        Websites referenced:\n
+http://developer.android.com/\n
+        http://stackoverflow.com/\n
+        http://www.december.com/html/spec/color2.html\n
+        http://www.december.com/html/spec/color3.html\n\n\n
+
+        @Copyright/Credit Information for music used:\n
+        Main menu screen of Word Game and the Word Game Screen:\n
+Movie: Kung Fu Panda\n
+Artist: Hans Zimmer\n\n
+
+        For the correct and wrong word beep sounds:\n
+        http://www.soundjay.com/button-sounds-1.html
+    </string>
+
+    <string name="communication_label">Communication</string>
+    <string name="register">Register</string>
+    <string name="unregister">Unregister</string>
+    <string name="send_label">Send</string>
+    <string name="clear_label">Clear</string>
+
+    <string name="communication_acknowledgements">
+        Websites referenced:\n
+http://developer.android.com/\n
+        http://stackoverflow.com/\n
+        https://www.firebase.com/docs/android/guide/\n
+        GCM and Firebase code posted on Piazza\n
+    </string>
+
+    <string name="two_player_word_game">Two Player Word Game</string>
+    <string name="leaderboard_button">Leaderboard</string>
+    <string name="tpwg_score">Score</string>
+    <string name="tpwg_time_remaining">Time Remaining (Secs)</string>
+    <string name="tpwg_pause_resume">Pause / Resume</string>
+    <string name="tpwg_pass">Pass</string>
+    <string name="tpwg_chooseplayer_label">Choose Player</string>
+    <string name="tpwg_request_sent">Request Sent. Waiting for approval from</string>
+    <string name="tpwg_approve_reject_request">Accept request to play from</string>
+
+    <string name="trickiest_part">Trickiest Part</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="final_project">Final Project</string>
+    <string name="final_project_start">Start</string>
+    <string name="final_project_app_desc">An app that prevents the spoilage of food and even defeats
+        the munchies you get when you have to throw out your 4-month-old leftovers. Using simple
+        voice recording, habit tracking, and general spoilage information, you will never throw away
+        food again. Simply read the items on your receipt to the app while holding the speak button
+        when you get home after shopping, and you will be helpfully reminded when food should be
+        consumed.
+    </string>
+    <string name="final_project_app_name">WasteNot</string>
+    <string name="final_project_accept">Accept</string>
+    <string name="final_project_discard">Discard</string>
+    <string name="final_project_app_name_on_screen">MAD16S-WasteNot</string>
+    <string name="final_project_settings_def_no_of_days">No. of days within which food item expires</string>
+    <string name="final_project_settings_def_time">Notification Time (24 hour format)</string>
+    <string name="final_project_settings_default">Default Settings</string>
+    <string name="final_project_last_screen_line1">You are all set.</string>
+    <string name="final_project_last_screen_line2">You will be reminded through notifications.</string>
+    <string name="final_project_last_screen_line3">Thank you for taking a step towards not wasting food.</string>
+    <string name="final_project_last_screen_close">Close</string>
+
+
+</resources>

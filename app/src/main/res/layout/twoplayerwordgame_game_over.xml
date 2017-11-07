@@ -1,0 +1,114 @@
+
+
+    <LinearLayout
+
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clipChildren="false"
+        tools:context=".ScraggleActivity"
+        android:weightSum="1"
+        android:background="@color/GhostWhite">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Game Over"
+            android:id="@+id/tpwg_game_over_label"
+            android:capitalize="sentences"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_weight="0.1"
+            android:textIsSelectable="false"
+            android:textSize="50dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Final scores are"
+            android:id="@+id/tpwg_final_score_label"
+            android:layout_weight="0.1"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="45dp"/>
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clipChildren="false"
+            tools:context=".ScraggleActivity"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tpwg_game_over_name_player1"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="45dp"/>
+
+        <TextView
+            android:id="@+id/tpwg_game_over_points_player1"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_weight="0.5"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:textSize="45dp"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:clipChildren="false"
+            tools:context=".ScraggleActivity"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/tpwg_game_over_name_player2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="45dp"/>
+
+            <TextView
+                android:id="@+id/tpwg_game_over_points_player2"
+                android:layout_width="match_parent"
+                android:layout_height="61dp"
+                android:layout_weight="0.5"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:textSize="45dp"/>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="113dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tpwg_game_over_main_menu_button"
+            android:layout_gravity="center_horizontal"
+            android:text="Main Menu"
+            android:layout_weight="0.07"
+            android:layout_marginTop="20dp"
+            android:textSize="15dp"/>
+
+    </LinearLayout>
